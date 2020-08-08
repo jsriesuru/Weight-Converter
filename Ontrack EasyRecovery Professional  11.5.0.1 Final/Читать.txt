@@ -1,0 +1,6 @@
+1. Установить программу. Запустить программу.
+2. После запуска откроется License Manager. Нажмите в нем Click Here for Activation Code
+3. запустите киген и в поле "Paste Activation URL here..." нажмите вставить (CTRL+V или ПКМ-Вставить)
+4. Скопируйте Activation code из кигена, вставьте его в пустое поле в License Manager и нажмите Activate Now 
+
+Для русификации скопировать папку lang и файл setup.ini в папку с установленной программой.

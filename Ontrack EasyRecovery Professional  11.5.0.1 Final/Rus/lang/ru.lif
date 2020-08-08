@@ -1,0 +1,1078 @@
+; EasyRecovery 11 translation file
+
+; Note for translators:
+;
+; * Please *only* translate the text after the equal sign symbol ('=') in each row.  
+; * Please do *not* remove any symbols or placeholders (like  &, %s, %d, \n, etc.) 
+;   in your translated text - they are required to be found in your translation too.   
+; Thank you!      
+
+[main]
+
+gui_OK=OK
+gui_Cancel=Отмена
+gui_Yes=Да
+gui_No=Нет
+gui_YesToAll=Да для всех
+gui_NoToAll=Нет для всех
+gui_Ignore=Игнорировать
+gui_Close=Закрыть
+gui_Exit=Выход
+gui_Warning=Внимание
+gui_Error=Ошибка
+gui_Information=Информация
+gui_Confirmation=Подтверждение
+gui_Progress=Прогресс...
+gui_pleasewait=Ждите...
+gui_help=Помощь
+
+build_DEMO=Демоверсия
+
+action_about=О программе
+action_buynow=Купить сейчас
+action_upgrade=Обновить
+action_createimage=Создать файл образа
+action_exit=Выход
+action_help=Помощь
+action_loadimage=Загрузить файл образа
+action_options=Настройки
+action_raid=Восстановление RAID
+action_rescan=Повтор сканирования
+action_save=Сохранить
+action_opensavepath=Открыть папку сохранения
+action_wipeitem=Удаление навсегда
+action_savefolderreport=Сохранить отчет
+action_search=Поиск
+action_selectall=Выбрать все
+action_licadmin=Управление лицензией
+action_licactivate=Активация лицензии
+action_fuzzysearch=Поиск без критериев
+action_openlogfile=Открыть лог
+action_remoterecovery=Уда&лить Восстановленное
+action_certmgr=&Управление сертификатом
+action_osdiskadmin=Управление диском
+action_view=&Просмотр как hex/text 
+action_resize=Из&менить размер
+action_rename=&Переименовать
+action_remoterecview=Уда&ленный просмотр восстановленного
+action_refreshdisktree=&Обновить список дисков
+action_viewdisk=Просмотр диска (Hex)
+action_restoreimage=Восстановить образ выбранного тома
+action_diskdiag=Диагностика диска
+action_diskinfo=Информация о диске
+action_continue=Продолжить
+action_goback=Назад
+action_emailrecovery=Восстановить почту
+action_properties=Свойства
+action_Wipedisk=Затереть диск
+action_scanreport=Показать отчет сканирования
+action_addToScanReport=Добавить к отчету сканирования
+action_skipitem=Игнорировать поиск папок при поиске файлов (вкл/выкл)
+
+hint_help=Помощь
+hint_exit=Выход из программы
+hint_remoterecovery=Запуск сессии удаленного восстановления
+hint_about=О программе
+hint_loadimagefile=Загрузить файл образа диска
+hint_createimagefile=Создать файл образа диска
+hint_reconstructraid=Перестроить сломанный RAID
+hint_buynow=Купить программу
+hint_options=Выбрать настройки
+hint_save=Сохранить выбранное
+hint_opensavepath=Показать восстановленное в папке сохранения
+hint_savefolderreport=Сохранить файл отчета
+hint_search=Искать файлы и папки
+hint_selectall=Выбрать все
+hint_refreshdisktree=Обновить список дисков
+hint_wipe=Удалить выбранное навсегда
+hint_renameitem=Переименовать выбранное
+hint_saveopen=Сохранить и открыть выбранное
+hint_openitem=Открыть выбранное
+hint_resizeitem=Изменить размер выбранного
+hint_licenseadmin=Управление лицензией
+hint_exportefs=Экспорт зашифрованного файла
+hint_importefs=Импорт зашифрованного файла
+hint_certmgr=Запуск менеджера сертификатов
+hint_osdiskadmin=Запустить системную службу управления дисками
+hint_parentfolder=Переход вверх
+hint_remoterecview=Запуск удаленного просмотра
+hint_licenseactivate=Активация лицензии
+hint_fuzzysearch=Включить поиск без критериев
+hint_upgrade=Проверить обновления
+hint_openlogfile=Открыть лог
+hint_view=Открыть файл внутренним вьювером
+hint_emailrecovery=Открыть программу почты
+hint_addtoscanreport=Добавить выбранное к отчету сканирования
+hint_skipitem=Пропускать папки с подпапками при поиске файлов (вкл/выкл)
+
+menuitem_fuzzysearch=Включить поиск без критериев
+
+menu_file=&Файл
+menu_edit=&Редактирование
+menu_search=&Поиск
+menu_extras=До&полнительно
+menu_expert=Эксперт
+menu_debug=Отладка
+menu_help=&Помощь
+menu_license=Лицензия
+
+popupmenumain_open=&Открыть
+popupmenumain_saveas=&Сохранить как...
+popupmenumain_saveopenfp=Сохранить и открыть &папку...
+popupmenumain_view=&Просмотр как HEX/Text
+popupmenumain_rename=&Переименовать
+popupmenumain_resize=Изм&енить размер
+popupmenumain_wipe=&Затереть
+popupmenumain_exportefs=Экспорт EFS
+popupmenumain_importefs=Импорт EFS
+popupmenumain_parentfolder=&Переход в родительскую папку
+
+efsexport_good=Зашифрованный файл(ы) Полностью экспортирован(ы) в $EFS файл. Ключ шифрования добавлен.\n Экспортируйте также ваш NTFS сертификат через менеджер сертификатов,\n если вы хотите импортировать $EFS файл(ы) на другой компьютер.
+efsexport_fail=Сбой экспорта в $EFS файл(ы). Код ошибки=%d.  
+efsimport_good=$EFS файл(ы) импортирован(ы). In case the imported file is not valid, you must import a valid NTFS certificate on this machine.\n Use the certicate manager on the source PC to export the original NTFS certifcate. 
+efsimport_fail=Сбой импорта из $EFS файла(ов). Код ошибки=%d. 
+
+popupmenuprogress_nexterr=&К следующей ошибке
+popupmenuprogress_openlogpath=Открыть &папку сохранения лога
+popupmenuprogress_maillog=&Почтовый лог %s
+popupmenuprogress_copy=&Копировать в буфер
+popupmenuprogress_scrollstopstart=&Стоп/старт скроллинг
+
+progressfrm_btncancel=Отмена
+progressfrm_btnpause=Пауза
+progressfrm_btnresume=Продолжить
+progressfrm_checkboxlog=Показать логи
+progressfrm_listboxloghint=Используйте стрелки на клавиатуре или PageUp и PageDown для навигации. Контекстное меню по правой кнопке мыши.
+progressfrm_estimatedtime=Оставшееся время: %s
+progressfrm_seconds=%.0f секунд
+progressfrm_minutes=%.1f минут
+progressfrm_hours=%.1f часов
+progressfrm_days=%.1f дней
+progressfrm_foundfilesfolders=Найдено файлов: %d, папок: %d
+progressfrm_foundvolumesdisks=Найдено томов: %d, дисков: %d
+
+
+wiz_welcome_top1=%s
+wiz_welcome_top2=- это программа для восстановления данных %s
+wiz_welcome_descr1=%s - простая утилита поможет вам восстановить потерянные и удаленные данные после форматирования и повреждения томов (дисков). Восстановленные данные сохраняются на другой том (диск).
+;wiz_welcome_descr2=
+wiz_welcome_bottom=Дополнительную информацию можно найти здесь:
+wiz_welcome_clickcontinue=Нажмите 'Продолжить' , чтобы запустить мастера восстановления.
+  
+wiz_stepx=Шаг %d
+wiz_details=(Нажмите для информации) 
+wiz_media=Выберите тип носителя
+wiz_media_hint=Выберите тип носителя, где вы потеряли данные. В зависимости от вашего выбора, программа будет использовать определенный алгоритм поиска.
+wiz_volume=Выберите том для сканирования
+wiz_volume_hint=Выберите том для сканирования и поиска потерянных данных. Если том (раздел) отсутствует, выберите диск, содержащий этот том.
+wiz_volume_raid_hint=Чтобы перестроить поврежденный RAID, выберите RAID Реконструктор.
+wiz_volume_header=Найдены диски и тома:
+wiz_volume_important=ВАЖНО: Будьте уверены, что диск, на котором будут сохраняться данные имеет достаточно свободного места.
+wiz_volume_hintdisk=Выбирайте диск только, если том (раздел) отсутствует.
+
+wiz_savevol=Выбрать диск для сохранения данных
+wiz_savevol_hint=Выбрать диск для сохранения данных.\nПримечание: Не сохранять данные на восстанавливаемый раздел!
+wiz_savevol_availdisk=Найдены диски и тома:
+wiz_savevol_path=Указать путь сохранения данных:
+wiz_savevol_btnsavepath=Путь сохранения данных
+
+wiz_scenario=Выбор сценария восстановления
+wiz_scenario_hint=Выбор сценария восстановления, соответственно проблеме.
+wiz_scenario_details=Выбрать файловую систему для поиска:
+wiz_scenario_enableraw=Enable file signature scan (RAW scan)
+wiz_scenario_enablequickscan=Быстрое сканирование (не все может быть найдено)
+wiz_check=Выбор опций
+wiz_check_hint=Выберите опции и нажмите Продолжить для запуска процесса сканирования. Вернитесь назад, если хотите изменить опции.
+wiz_check_mediatype=Тип носителя:
+wiz_check_volume=Том:
+wiz_check_disk=Диск:
+wiz_check_scenario=Сценарий восстановления:
+wiz_check_filesystems=Будем искать следующие файловые системы:
+wiz_check_savepath=Ваши файлы будут сохранены здесь:
+wiz_check_quickscan=Быстрое сканирование
+wiz_checkwipe_hint=Проверьте выбранные опции или вернитесь назад для их изменения.
+wiz_scanning=Сканируется диск...
+wiz_scanning_hint=Выбранный диск будет просканирован - ждите! 
+wiz_scanning_corrupt_note=ВАЖНО: При сканировании могут быть найдены разделы и файлы. Необходимо их протестировать на предмет возможного восстановления.
+wiz_save=Сохраните ваши файлы
+wiz_save_hint=Выберите файлы для сохранения (восстановления). Вы можете выбрать качество файлов с помощью внутреннего вьювера или открыть файлы ассоциированным с ними приложением.
+wiz_backclear=Результаты сканирования будут удалены. Вы уверены?
+wiz_goback=Назад
+wiz_continue=Продолжить
+wiz_wipe=Затереть данные
+wiz_wipe_hint=Выберите файлы и папки, которые хотите затереть. ВНИМАНИЕ: Их восстановление будет невозможно.
+wiz_rescan=Вы уже выполнили сканирование. Хотите повторить процедуру?
+wiz_grplegend=Легенда (усл. обозначения)
+wiz_legend_lost=Потерянные или удаленные папки
+wiz_legend_normal=Нормальные папки
+
+wiz_diskdiags=Диагностика диска
+wiz_diskdiags_hint=Результаты анализа диска будут отображены графически. Вы можете запустить анализ для определения bad blocks, получить детальную информацию по томам.
+
+
+media_harddrive=Жесткий диск
+media_harddrive_hint=Восстановление данных с HDD и SSD.\n Примечание: диск должен быть виден в системе
+media_memorycard=Карты памяти (flash)
+media_memorycard_hint=Восстановление данных с flash-карт: SD, CF, MMC и др.
+
+media_optical=Оптические диски
+media_optical_hint=Восстановление данных с оптических дисков: CD, CD-R/RW, DVD, DVD-R/RW и др.  
+media_multimedia=Мультимедиа/Мобильные устройства
+media_multimedia_hint=Восстановление данных с: фотокамеры, MP3-плееры, смартфоны и др.
+media_raid=Восстановление RAID
+media_raid_hint=Восстановление данных из RAID массивов.
+
+vol_volumes=Тома
+vol_type=Тип
+vol_size=Размер
+vol_filesystem=Файловая система
+vol_disk=Диск
+vol_lostvolume=Потерянный том (раздел)
+vol_volume=Том (раздел)
+
+
+op_explore=Поиск по разделу
+op_explore_hint=Выберите это, если нужно сохранить данные с валидного (живого) раздела.
+op_deleted=Восстановление удаленных файлов
+op_deleted_hint=Поиск случайно удаленных и потерянных файлов. Также подходит для удаленных файлов из корзины и после форматированияs.
+op_formatted=Восстановление с форматированных медиа-устройств
+op_formatted_hint=Восстановление с форматированных медиа-устройств. А также потерянные файлы с неформатированных устройств. Это занимает больше времени, но шанс восстановления данных выше.
+op_volumes=Поиск потерянных томов (разделов)
+op_volumes_hint=Сканирование диска для поиска потерянных или удаленных томов. Также могут быть найдены размонтированные тома.
+op_wipe=Затирание данных (навсегда)
+op_wipe_hint=Удаление данных без возможности восстановления
+op_diskdiags=Диагностика диска
+op_diskdiags_hint=Результаты анализа диска будут отображены графически. Вы можете запустить анализ для определения bad blocks, получить детальную информацию по томам.
+op_not_avail_hint=Эта операция отсутствует в данной версии.
+
+opt_caption=Настройки
+opt_general=Основные
+opt_recovery=Восстановление
+opt_scanregion=Область сканирования
+opt_wipeoptions=Опции затирания
+opt_badblockmanage=Управление Bad Block-ами 
+opt_deletedrecovery=Удаление восстановленных файлов
+opt_textrecovery=Восстановление
+opt_filetypes=Типы файлов
+opt_allocatedspace=Занимаемое место
+opt_filesystems=Файловая система
+opt_logging=Ведение лога
+opt_expertmode=Режим эксперта
+opt_scanoptions=Опции сканирования
+opt_view=Опции просмотра
+
+opt_advscanoptions=Расширенные опции сканирования
+
+opt_tabSheetScanRegion=Область сканирования
+opt_tabSheetScanRegion_lbltop=На дисках большого размера будет полезным задать область сканирования. Это увеличит скорость сканирования и уменьшит количество найденных файлов. Эта возможность доступна для всех сценариев.
+opt_tabSheetScanRegion_lblstart=Начало с :
+opt_tabSheetScanRegion_lblstop=Конец на :
+
+opt_tabSheetFileTypes=Типы файлов
+opt_tabSheetFileTypes_lbltop=Чтобы увеличить скорость сканирования и уменьшить число найденных файлов, вы можете отключить поиск определенных типов файлов для всех сценариев.
+opt_tabSheetFileTypes_lblfilter=Отметьте типы файлов:
+opt_tabSheetFileTypes_lbltypes=Отмеченные типы фа йлов:
+opt_tabSheetFileTypes_filetype=Тип файла
+opt_tabSheetFileTypes_extension=Расширение
+
+opt_filetypesfilter_all=Все файлы
+opt_filetypesfilter_images=Графические файлы
+opt_filetypesfilter_videos=Видео файлы
+opt_filetypesfilter_audio=Аудио файлы
+opt_filetypesfilter_apps=Файлы приложений
+opt_filetypesfilter_office=Ms Office файлы
+opt_filetypesfilter_text=Текстовые документы
+opt_filetypesfilter_custom=Пользовательские
+
+opt_tabSheetFileSystems=Файловые системы
+opt_tabSheetFileSystems_lbltop=Чтобы увеличить скорость сканирования и уменьшить число найденных файлов, вы можете отключить поиск определенных типов файлов для всех сценариев.
+opt_tabSheetFileSystems_fs=Файловые системы
+opt_tabSheetFileSystems_name=Название
+opt_tabSheetFileSystems_descr=Описание
+
+opt_tabSheetLogging=Настройки лога
+opt_tabSheetLogging_lbltop=Здесь вы можете выбрать глубину лога.
+opt_tabSheetLogging_lbllvl=Текущий уровень лога:
+opt_tabSheetLogging_filename=Имя файла лога:
+
+opt_tabSheetBadBlockMgr=Управление Bad Block-ами
+opt_tabSheetBadBlockMgr_lbltop=Вы можете видеть и редактировать область bad block-ов в таблице внизу. Эта область плохих секторов будет автоматически пропущена при сканировании.
+opt_tabSheetBadBlockMgr_range=Диапазон блоков:
+opt_tabSheetBadBlockMgr_from=От
+opt_tabSheetBadBlockMgr_to=До
+opt_tabSheetBadBlockMgr_editfrom=От:
+opt_tabSheetBadBlockMgr_editto=До:
+opt_tabSheetBadBlockMgr_btnaddentry=&Добавить границу диапазона
+opt_tabSheetBadBlockMgr_btndelentry=&Удалить границу диапазона
+opt_tabSheetBadBlockMgr_btnApply=П&ринять
+opt_tabSheetBadBlockMgr_cbautoadd=Автоматически добавлять bad blocks
+opt_tabSheetBadBlockMgr_cbautoskip=Автоматически пропускать указанные диапазоны bad blocks
+opt_tabSheetBadBlockMgr_btnsaveList=&Сохранить список
+opt_tabSheetBadBlockMgr_btnloadList=&Загрузить список
+opt_tabSheetBadBlockMgr_btnClearList=&Очистить список
+opt_tabSheetBadBlockMgr_cbfastbadblkskipping=Быстрый пропуск плохих секторов
+
+opt_tabSheetViewOpt=Опции просмотра
+opt_tabSheetViewOpt_lbltop=Различные опции просмотра указаны ниже.Экспертный режим для опытных пользователей позволяет использовать расширенные опции. У вас будет больше возможностей для манипуляций с восстановливаемыми файлами и их параметрами.
+opt_tabSheetViewOpt_cbexpert=Включить режим эксперта
+opt_tabSheetViewOpt_cbautorem=Автоматически удалять пустые папки
+
+opt_tabSheetScanOptions=Опции сканирования
+opt_tabSheetScanOptions_grpraw=Анализ RAW
+opt_tabSheetScanOptions_lbltop=Выбор опций, влияющих на время и результаты сканирования.
+opt_tabSheetScanOptions_skipusedallocblks=Пропустить блоки, используемые файловой системой, на выбор:
+opt_tabSheetScanOptions_cbMaxLostFileSize=Ограничить размер файла для RAW-Анализатора до:
+opt_tabSheetScanOptions_lblRawMin=Байт минимум / %s
+opt_tabSheetScanOptions_lblRawMax=Байт максимум / %s
+opt_tabSheetScanOptions_cbAutoConcatVideos=Пытаться "склеить" видеопотоки
+opt_tabSheetScanOptions_cbautorename=Автоматическое переименование файлов для сохранения под первоначальным именем.
+opt_tabSheetScanOptions_autoOffset=Автоматически определять размер блока
+opt_tabSheetScanOptions_detectdeleted=Определять удаленные при форматировании файлы на FAT-разделах
+opt_tabSheetScanOptions_ignoreallerr=Игнорировать все ошибки в течении сканирования.
+opt_tabSheetScanOptions_onlyrootItems=В режиме "Восстановление после форматирования" искать данные только в корне тома (Для дисков > 300 Гб)
+opt_tabSheetScanOptions_popupsize_userdef=выбор пользователя
+
+
+opt_tabSheetAdvScanOptions=Расширенные опции сканирования
+opt_tabSheetAdvScanOptions_lbltop=Это опции для опытных пользователей:
+opt_tabSheetAdvScanOptions_lblscanburstsize=Create images and disk-copies using a burst/block size of:
+
+opt_tabSheetWipeOptions=Опции затирания данных
+opt_tabSheetWipeOptions_lbltop=Здесь вы можете выбрать различные опции:
+opt_tabSheetWipeOptions_lblwipemethod=Метод затирания:
+opt_tabSheetWipeOptions_cbcreatereport=Создать отчет после процедуры затирания
+
+opt_okbtn=OK
+opt_cancelbtn=Отмена
+opt_helpbtn=Помощь
+
+
+about_copyright=Copyright %s \nAll Rights Reserved.
+about_builddate=Дата сборки:
+about_law=This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this or any part of it may result in severe civil and criminal penalties and will be prosecuted to the maximum possible law.
+
+
+raid_caption=RAID Reconstructor
+raid_about=RAID Reconstructor helps you to rebuild a broken RAID system by de-striping the RAID disk components. If you do not know your RAID parameters, you only need to enter the marked parameters below and the probing on the right can try to find the missing parameters.
+raid_selectnumber=Select the number of components in your RAID array:
+raid_disks=# disks:
+raid_selectcomponents=Select the components of your RAID array:
+raid_choosedisks=Choose disks
+raid_startsectors=Start sectors:
+raid_stripesize=Stripe size (sectors):
+raid_parityrotation=Parity rotation:
+raid_findparams=Finding RAID parameters (optional)
+raid_findabout=If you do not know your RAID parameters, this will scan your components and try to find out the missing RAID parameters.
+raid_startscan=Start scan
+raid_cancelscan=Cancel scan
+raid_scanning=Scanning components... Please wait!
+raid_choosecombination=Choose one of the combinations to set the RAID parameters. They are sorted by likelihood - the higher the score, the more likely the combination.
+raid_probedcombinations=Probed combinations:
+raid_startsector=Start sector
+raid_stripesize2=Stripe size
+raid_parityrotation2=Parity rotation
+raid_score=Score
+raid_error_sameblocksize=Disk components must have same block size!
+raid_okinfo=After clicking OK, a new RAID disk is added which can be used to browse the reconstructed RAID disk, to create a file image of it,  or to perform a recovery on it.
+raid_options=Options
+raid_order=Order
+raid_bestresults=For best results, only use values that are likely.
+raid_paramsprobe=Parameters to probe:
+raid_startsectors=Start sectors
+raid_stripesizes=Stripe sizes (sectors)
+raid_parityrotations=Parity rotations
+raid_diskorder=Disk order
+raid_diskorder1=Disk order:
+
+
+other_erroropeningdisk=Не могу прочитать диск. Проверьте правильность присоединения его к ПК и, если надо, введите правильный пароль на доступ к диску.
+other_chooseimagefile=Имя файла образа совпадает с именем источника
+other_chooseRestoreImagefile=Выберите источник файла образа
+other_creatingimagefile=Создание файла образа
+other_savingfiles=Сохранение файлов
+other_diskerrors=Ошибки диска: %d
+other_searchkeyword=Поиск
+other_wipeconfirmation=ВНИМАНИЕ: выбранные файлы и папки будут удалены навсегда. Желаете продолжить?
+other_wipingfiles=Затирание файлов
+other_searchingitems=Поиск
+other_choosedestfolder=Выбор папки назначения
+other_appalreadyrunning=Приложение готово к запуску!
+other_operationerror=Сбой. Код ошибки=%d.
+other_operationsuccess=Операция завершена.
+other_freemem=Свободно памяти (RAM): %s
+other_freeswap=Свободно swap памяти: %s
+other_x_of_y=%s из %s
+other_table=Таблица
+other_thumbs=Превьюшки
+other_enableautoenlarge=Включить авто-увеличение
+other_searchkeyword=Поиск
+other_cannotsavetovolume=Вы не можете сохранить файлы на сканируемом томе. Выберите другой том.
+other_featurenotavailable=Эта возможность не доступна в данной версии.\nИщите ключ.
+other_asksuretoclose=Приложение будет закрыто. Вы уверены?
+other_errorduringscan=Последняя операция завершилась с фатальной ошибкой. Смотрите лог.
+other_fileexists=Файл уже существует
+other_confirmoverwrite=Файл %s уже существует. Перезаписать?
+other_question=Вопрос
+other_confirmRestoreImage=Восстановленный образ перезапишет все данные на %s.\n Все важные данные уже будут восстановлены.\n Продолжить?
+other_restoreimagefile=Восстановить из файла образа
+other_restorewarning=Будет перезаписан весь диск/том %s (%s). Уверены?
+other_confirmrefreshdisklist=Обновление списка дисков удалит восстановленные тома. Продолжить?  
+
+
+other_saveThread_finishedmsg=Процесс сохранения закончен. Всего  %d файлов было сохранено.
+other_CreateFolderReportThread_finishedmsg=Отчет о сканировании был создан.
+other_wipeThread_finishedmsg=Процесс затирания завершен. Всего %d файлов было уничтожено.
+other_wipediskThread_finishedmsg=Процесс затирания диска завершен.
+other_wipereportThread_finishedmsg=Отчет о затирании создан.
+
+other_scanDeletedFiles_finishedmsg=Сканирование удаленных файлов закончено.
+other_scanLostFiles_finishedmsg=Сканирование форматированных файлов закончено.
+other_scanLostVolumes_finishedmsg=Сканирование потерянных томов закончено. 
+
+other_CreateImageThread_finishedmsg_success=Файл образа создан.
+other_CreateImageThread_finishedmsg_error=Файл образа создан с ошибками. Смотри лог.
+other_RestoreImageThread_finishedmsg_success=Образ восстановлен успешно.
+other_RestoreImageThread_finishedmsg_error=Восстановление из образа не удалось. Смотри лог.
+
+other_diskfull=Нужно место %d Мб.\n Есть %d Мб свободного места на томе %s.\nХотите сохранить остальные файлы на другом томе?
+
+other_badblocklist=bad block список %s
+other_savebadblocklist=Сохранить bad block список...
+other_openbadblocklist=Открыть bad block список...
+
+other_noadmin=У вас нет прав администратора. Программа не будет работать правильно. Залогиньтесь администратором и перезапустите приложение!
+
+other_confirmopenfile=Открываемый файл будет записан на %s.\n Это может повредить невосстановленную информацию на томе.\n Подолжить?
+other_needminimumspace=Минимум %s свободного места надо на %s.\nСейчас есть %s свободного места.\nВыберите другой том.
+
+other_wipingdisk=Затирание диска
+other_wipediskwarning=Будет затерт целый диск/том %s (%s).\n Все данные будут уничтожены навсегда.\n Уверены?
+
+other_addingtoreport=Добавление к отчету
+
+search_itemsfound=Найдено: %d
+search_itemmatch=Похожих: %s
+
+
+remote_descr=VNC remote recovery allows a support partner to remote control this application from another computer.  Both users can share the same screen. You and the support partner must be connected via LAN or WAN.
+remote_steps=Steps:\n\n1.) Your support partner must start his viewer with a certain IP address and port number.\n\n2.) Please enter the IP address and the port number of your support partner in the field below.\n\n3.) Then press the 'Connect' button. 
+remote_timeout=If the connection fails, your support partner should add port-forwarding to his router and open his firewall on the port number given in the address field below.
+remote_ipadr=Enter remote address to connect to (IP address:Port):
+remote_vncnotfound=The remote vnc viewer could not be found at %s.
+remote_connectwait=Connecting to remote computer, please wait...
+remote_disconnectwait=Disconnecting from remote computer, please wait...
+
+remote_btnconnect=Connect
+remote_btndisconnect=Disconnect
+remote_btnclose=Close
+remote_connect=Connect
+remote_connecting=Connecting...
+remote_connected=Connected.
+remote_disconnect=Disconnect
+remote_disconnecting=Disconnecting...
+remote_disconnected=Disconnected.
+
+remote_choosebetween=Choose between:
+remote_paneltextviewer=I want to control some machine.
+remote_paneltextserver=This machine shall be remote controlled.
+remote_stepsnew=Steps:
+remote_port=Port:
+remote_tellipandport=Tell your partner your IP and port on the phone.
+remote_yourwanip=Your IP:
+remote_waitforconnection=Wait until your partner connects to you.
+remote_troubleshooting=Troubleshooting
+remote_troubleshootingViewer=If your remote partner cannot establish a connection, you should check the port-forwarding and firewall settings on the port number shown above.
+remote_troubleshootingServer=If the connection fails, your support partner should add port-forwarding to his router and open his firewall on the port number given in the address field above.
+remote_serverwait=Wait until your remote partner tells your his IP and port. Then enter them here:
+remote_serverip=IP:
+remote_serverport=Port:
+remote_pressconnect=Press connect.
+
+
+remoteview_formcaption=Remote recovery viewer
+remoteview_clickstart=Please click the start button to launch the VNC viewer.
+remoteview_wanipinstruct=Then advise your remote partner to enter your WAN IP address and port number in his remote recovery dialog. If you are not sure about your WAN IP address, please click on the website link below.
+remoteview_noconnection=If your remote partner cannot establish a connection , you should check the port-forwarding and firewall settings on the port number shown above.
+remoteview_bottom=If your remote partner connects, a new window opens automatically showing his desktop. 
+remoteview_portnum=Your port number is:
+remoteview_startviewer=Start viewer
+remoteview_stopviewer=Stop viewer
+
+demomsgstart=Демо версия ограничена: 
+demomsgfiles=%d файлов
+demomsgmaxfilesize=максимальный размер файла %d Кб
+demomsgtotalamount=a total amount of %d KByte for every user.
+demomsgend=You have recovered %d files and %d KByte with this software. 
+demomsgendbuy=Купите или найдите ключ
+
+logging_none=НИЧЕГО
+logging_info=ИНФОРМАЦИЯ
+logging_debug=ОТЛАДКА
+logging_debug2=ОТЛАДКА2
+logging_warning=ПРЕДУПРЕЖДЕНИЕ
+logging_error=ОШИБКА
+
+core_Category_image=Графика
+core_Category_application=Приложения
+core_Category_audio=Аудио
+core_Category_archive=Архивы
+core_Category_document=Документы
+core_Category_video=Видео
+core_Category_text=Текст
+core_Category_other=Другое
+core_Root=Root
+core_Deleted=Удаленные
+core_Lost=Потерянные
+core_OrphanedFolders=Папки "без хозяина"
+core_SearchResults=Результаты поиска
+core_ContentOfFolder=Содержимое папки: %s
+core_Name=Имя
+core_Size=Размер
+core_Type=Тип
+core_DateModified=Дата изменения
+core_ID=ID
+core_Folder=Папка
+core_File=Файл
+core_NotAvailable=n/a
+core_analyserScanBegin=Запуск анализа
+core_analyserScanEnd=Остановка анализа - ждите...
+core_scanning=Ждите окончания сканирования...
+core_done=готово
+core_countingfiles=Счетчик файлов...
+core_creatingreport=Создание отчета...
+core_reportcancel=Отчет не полный / было отменено создание.
+core_blockOffsetDetection=Определение размера блока
+core_FileSystem=Файловая система
+core_checked=X
+
+core_scanType_scanBrowse=Просмотр файлов
+core_scanType_scanDeletedFiles=Поиск удаленных файлов
+core_scanType_scanLostFiles=Поиск потерянных файлов
+core_scanType_scanLostVolumes=Поиск потерянных томов
+core_scanType_Wipe=Затирание файлов
+
+core_skip=Пропустить
+
+tscanSettingName_No=Нет
+tscanSettingName_Yes=Да
+tscanSettingName_Auto=Автоматически
+
+report_choosename=Выберите имя для файла отчета
+report_saving=Сохранение отчета...
+report_on_date=Список файлов в %s 
+
+viewer_formcaption=Вьювер
+viewer_radiogroupcaption=Просмотреть как
+viewer_radiobuttontext=Текст
+viewer_radiobuttonBinary=Binary
+viewer_radiobuttonHex=HEX
+viewer_radiobuttonUnicode=Unicode
+
+
+wipe_reportheader=Сертификат подтверждения удаления
+
+core_wipe_deletiondate=Deletion date: %s
+core_wipe_volume=Deleted on Volume: '%s'
+core_wipe_method=Deletion Method: %s
+core_wipe_methodzerowrite=Write zeros
+core_wipe_methodrandomNumbers=Random numbers
+core_wipe_methodtogglebits=Toggling bits
+core_wipe_totalbytesprocessed=Total bytes processed: %d
+core_wipe_totalitemsprocessed=Total items processed: %d
+core_wipe_fileentry='%s' (file), Size in Bytes: %d, Modification Date: %s, Status: %s
+core_wipe_folderentry='%s' (folder), Modification Date: %s, Status: %s
+core_wipe_deleteditems=Deleted items:
+core_wipe_skippedanderroritems=Skipped/error items:
+core_wipe_files=Files: %d 
+core_wipe_folders=Folders: %d
+core_wiped=Deleted
+core_wipeerror=Error on deletion
+
+wipe_report_filename=%globalproductnameshort% wipe report %s.txt
+wipe_finished=Wipe finished
+wipe_finishedgetreport=The wipe has finished - You will get a wipe report of the deleted items now.
+wipe_savereport=Save report
+wipe_choosefile=Choose a filename for the wipe report
+wipe_close=Close
+wipe_openfilepath=Open filepath
+wipe_reportformcaption=Wipe report
+
+diskviewer_labelsearchfor=Искать:
+diskviewer_searchpos=Позиция поиска:
+diskviewer_rgType=Тип
+diskviewer_rbHex=Hex
+diskviewer_rbString=String
+diskviewer_btnSearch=&Поиск/Продолжить
+diskviewer_btnDumpToLog=Dump to log file
+diskviewer_btnSearching=Поиск...
+diskviewer_btnSearchNext=Найти &Следующее
+diskviewer_lblOffsets=Offsets:
+diskviewer_btnAddToList=&Добавить к списку
+diskviewer_btnDeleteEntry=Delete entry
+diskviewer_btnDeleteList=Удалить список
+diskviewer_btnClose=&Закрыть
+diskviewer_btnStopSearch=Ст&оп поиск
+diskviewer_btnContinueSearch=&Продолжить поиск
+diskviewer_msgwrongchar=Символ %s неверный.
+diskviewer_caption=Вьювер диска
+diskviewer_byteoffset=Byte offset:
+diskviewer_blockoffset=Block offset:
+diskviewer_diskblock=Disk block:
+
+diskviewer_editSearchHint=Enter hex or normal string; append ':' for a certain blockoffset
+diskviewer_popup_setsearchstart=Set search position to cursor
+diskviewer_popup_search=Search/Continue
+diskviewer_popup_stopsearch=Stop search
+diskviewer_popup_addofs=Add cursor offset to list
+diskviewer_popup_dumptolog=Dump to log file
+diskviewer_popup_setdiskofs=Set physical disk offset to current block offset
+diskviewer_popup_resetdiskofs=Set physical disk offset to zero
+
+diskviewer_badcursoroffset=Cursor offset %d is equal or higher than the maximum %d.
+
+
+diskdiag_blsize=1 graphical block = %d physical blocks
+diskdiag_startscan=Start scan
+diskdiag_stopscan=Stop scan
+diskdiag_pausescan=Pause scan
+diskdiag_resumescan=Resume scan
+diskdiag_badblocks=Bad blocks
+
+diskdiag_lblstatus=Состояние: %s
+diskdiag_progress=сканирование блока %d из %d (%s %, %d Мб/с)
+diskdiag_paused=Пауза на %d (%s %)
+diskdiag_mounttry=Пытаюсь примонтировать раздел  %d на диск "%s"...
+diskdiag_scanstopped=Scan stopped at block %d (%s percent)
+diskdiag_scanfinished=Сканирование закончено. %s (%d блоков) было просканировано.
+diskdiag_unknownblocktype=Неизвестный тип блока
+diskdiag_scanburstsize=Scan burst size
+
+diskdiag_title=Диагностика диска
+diskdiag_details=The disk diagnostics show the disk/volume as a graphical image. You can run a block analysis to detect bad blocks, see the different volumes of a disk or get details on the usage of the blocks.   
+diskdiag_blockanalysis=Анализ блоков
+diskdiag_legend=Условные обозначения
+diskdiag_badblock=Bad block
+
+diskdiag_usedvolblock=Используемый на томе block
+diskdiag_freevolblock=Свободный на томе block
+diskdiag_useddiskblock=Используемый на диске block
+diskdiag_freediskblock=Свободный на диске block
+
+diskdiag_fsblock=Файловая система блока
+diskdiag_pttable=Таблица разделов
+diskdiag_bootsector=Загрузочный сектор раздела
+diskdiag_othertype=Другие типы блоков
+diskdiag_disksurface=Диск/Том поверхность
+diskdiag_results=Результаты
+diskdiag_badblocks=Bad blocks: %s
+diskdiag_usedVolBlocks=Используемые на томе blocks: %s
+diskdiag_FreeVolBlocks=Свободные на томе blocks: %s
+diskdiag_usedDiskBlocks=Используемые на диске blocks: %s
+diskdiag_FreeDiskBlocks=Свободные на диске blocks: %s
+diskdiag_FSBlocks=Файловая система блоков: %s
+diskdiag_OtherBlocks=Другие блоки: %s
+diskdiag_clusterwaste=Пустые кластеры: %s
+diskdiag_runsmart=S.M.A.R.T. анализ
+diskdiag_readtest=Тест чтения
+diskdiag_writetest=тест записи
+diskdiag_interface=Интерфейс: %s
+diskdiag_mountpoint=Точка монтирования: %s
+diskdiag_blockSize=Размер блока: %s
+diskdiag_blockCount=Количество блоков: %s
+diskdiag_disktype=Тип диска: %s
+diskdiag_physicaldisk=Физический диск: %s
+diskdiag_logicalvolume=Логический том: %s
+diskdiag_errorcounter=Ошибки: %s
+diskdiag_filesystemoffset=File system offset: %s
+diskdiag_partitiontype=Тип раздела: %s
+diskdiag_devicePath=Путь к устройству: %s
+diskdiag_recoveryStatus=Статус восстановления: %s
+diskdiag_statusNormal=Нормальный
+diskdiag_statusLost=Потерянный
+diskdiag_cylinders=Цилиндров: %s 
+diskdiag_tracksPerCylinder=Дорожек на цилиндр: %s
+diskdiag_SectorsPerTrack=Секторов на дорожку: %s
+diskdiag_BytesPerSector=Байт на сектор: %s
+diskdiag_heads=Головок: %s
+diskdiag_guid=GUID тип: %s
+diskdiag_cluster=Cluster %s
+diskdiag_zoomin=Zoom in
+diskdiag_zoomout=Zoom out
+diskdiag_selectThisVolume=выбрать этот том
+diskdiag_diskview=Просмотр диска
+
+smart_formcaption=S.M.A.R.T. - утилита самотестирования диска
+smart_diskinfo=Информация о диске
+smart_attrlist=Список атрибутов
+smart_popup_copy=&Копировать
+
+
+diskinfo_ParentBaseBlock=Стартовый блок на физическом диске (parentBaseBlock)
+
+diskinfo_caption=Информация о диске
+diskinfo_label=Детали по выбранному диску:
+diskinfo_columnproperty=Свойства
+diskinfo_columnvalue=Значение
+diskinfo_name=Имя
+diskinfo_id=Идентификатор
+diskinfo_disktype=Тип диска
+diskinfo_parttype=Тип раздела
+diskinfo_diskbytesize=Размер в Байтах
+diskinfo_disksize=Размер
+diskinfo_blockcount=Block count
+diskinfo_blocksize=Block size
+diskinfo_physicalblockofs=Physical block offset
+diskinfo_physicalblocksize=Physical block size
+diskinfo_mountpoint=Mount point
+diskinfo_devicepath=Device path
+diskinfo_interface=Interface
+diskinfo_isfilteredDisk=Disk filter activated
+diskinfo_FilteredDiskType=Filtered disk type
+diskinfo_lockcount=Lock count
+diskinfo_lost=Lost
+diskinfo_iswholePhysicalDisk=Whole physical disk
+diskinfo_errorcounter=Error counter
+diskinfo_filesystemoffset=Filesystem offset
+diskinfo_numberofPartitions=Number of partitions
+diskinfo_AutoAddBadBlocks=Auto add bad blocks
+diskinfo_AutoSkipBadBlocks=Auto skip bad blocks
+diskinfo_badblockcount=Number of bad block manager entries
+diskinfo_popup_dumptolog=Dump to logfile
+diskinfo_popup_copy=Copy all
+diskinfo_popup_copyrow=Copy row
+diskinfo_partitionNo=-------- Номер раздела --------
+diskinfo_FirstBlock=First block
+diskinfo_LastBlock=Last block
+diskinfo_imagefilename=Image filename
+diskinfo_RaidProductID=-Raid product id-
+diskinfo_RaidType=Raid type
+diskinfo_RaidNumOfRotDisks=Number of rotation disks
+diskinfo_RaidRotationTranslation=Rotation translation
+diskinfo_RaidStripeSectors=Stripe sectors
+diskinfo_RaidParityRotation=Parity Rotation
+diskinfo_RaidFirstSectors=First sectors of the disks
+diskinfo_ParityCheckCount=Parity check count
+diskinfo_ParityCheckFailures=Parity check failures
+diskinfo_FastBadBlockSkipping=Fast bad block skipping
+
+diskinfo_volumename=- Имя тома -
+diskinfo_volumefs=Volume filesystem
+diskinfo_volumedisk=Volume disk
+diskinfo_volumeallocblocksize=Volume clustersize/allocblocksize.
+diskinfo_volumeDiskOffset=Volume disk offset
+diskinfo_volumeFirstAllocBlockOfs=Volume first cluster offset (bytes)
+diskinfo_volumeUseMarkerBitmap=Use marker bitmap
+diskinfo_dumpheader=Disk/Volume information of %s:
+
+diskinfo_FATBlockCount=FAT blockcount
+diskinfo_FATClusterCount=FAT clustercount
+diskinfo_FATRootDirSize=FAT root dir size (bytes)
+diskinfo_FATRootDirCluster=FAT root dir cluster
+diskinfo_FATRootDirOfs=FAT root dir offset (bytes)   
+diskinfo_FATDataOfs=FAT data area offset (bytes)
+
+diskinfo_NTFSSkipBadMarkedClus=NTFS skip bad marked clusters ($BAD)
+diskinfo_NTFSclusbitmapsize=NTFS clusterbitmap size
+diskinfo_NTFSRecordPoolPMFTNo=NTFS recordpool parentMFT size
+diskinfo_NTFSRecordPoolSMFTNo=NTFS recordpool selfMFT size
+diskinfo_NTFSBootSeecValid=NTFS bootsector valid
+diskinfo_NTFSBytesPerClus=NTFS bytes per cluster
+diskinfo_NTFSBytesPerFileRecord=NTFS bytes per file record
+diskinfo_NTFSBytesPerIndexBlock=NTFS bytes per index block
+diskinfo_NTFSMetaMftStartLcn=NTFS MFT startcluster
+diskinfo_NTFSMetaMftMirrorStartLcn=NTFS MFT mirror startcluster
+diskinfo_NTFSCountOfClusters=NTFS count of clusters
+diskinfo_NTFSTotalSectors=NTFS count of blocks/sectors
+
+diskinfo_HFSVolumeNameFound=HFS volume name found
+diskinfo_HFSAllocBlockCount=HFS allocation block count
+diskinfo_HFSRFARecursiveCounter=HFS RFA recursive counter
+diskinfo_HFSRecCatFileNodeSize=HFS rec-cat file node size
+diskinfo_HFSAllocFileContentsSize=HFS contents allocation file size
+diskinfo_HFSVolumeHeaderOfs=HFS volume header offset (bytes)
+  
+diskinfo_EXT2superblockofs=EXT2 superblock offset (bytes)
+diskinfo_EXT2blockgroupno=EXT2 superblock blockgroup number
+diskinfo_EXT2SparseSuper=EXT2 sparse super block feature enabled
+diskinfo_EXT2RevMajor=EXT2 Revision Major
+diskinfo_EXT2RevMinor=EXT2 Revision Minor
+diskinfo_EXT2blockcount=EXT2 block count
+diskinfo_EXT2INodesPerGroup=EXT2 INodes per group
+diskinfo_EXT2BlocksPerGroup=EXT2 blocks per group
+diskinfo_EXT2BlockGroups=EXT2 number of block groups
+diskinfo_EXT2INodeSize=EXT2 INode size
+diskinfo_EXT2InodesCount=EXT2 number of INodes
+diskinfo_EXT2useBlockGroupNoForDescriptors=EXT2 Initial block group for reading group descriptors
+  
+diskinfo_ISOVD_typ=Volume descriptor Type
+diskinfo_ISOstd_id=Standard ID
+diskinfo_ISOvd_vers=VD version
+diskinfo_ISOsys_id=System ID
+diskinfo_ISOvol_id=Volume ID
+diskinfo_ISOvol_spc_size=Volume space
+diskinfo_ISOvol_set_size=Set size
+diskinfo_ISOvol_seq_nr=Sequence number
+diskinfo_ISOlog_blc_size=Block size
+diskinfo_ISOpth_tb_size=Table size
+diskinfo_ISOtyp_path_tb=Type path table
+diskinfo_ISOopt_path_tb=Optional path table
+diskinfo_ISOvol_set_id=Set ID
+diskinfo_ISOpubl_id=Publisher ID
+diskinfo_ISOdata_prep_id=Prepare ID
+diskinfo_ISOappl_id=Application ID
+diskinfo_ISOc_file_id=File ID
+diskinfo_ISOabstr_file_id=Abstract file ID
+diskinfo_ISObibl_file_id=Bibliographic file ID
+diskinfo_ISOvol_creat_datime=Creation date/time
+diskinfo_ISOvol_mod_datime=Modification date/time
+diskinfo_ISOvol_expi_datime=Expiration date/time
+diskinfo_ISOvol_eff_datime=Effective date/time
+diskinfo_ISOfile_struct_ver=File structure version
+diskinfo_ISOxa_sign=XA signature
+diskinfo_ISOxa_flags=XA flags
+diskinfo_ISOstartup_dir=Startup directory
+
+diskinfo_UseIOCTLscsi=Use IO-control SCSI interface
+diskinfo_ContainsPageFile=Contains page file
+diskinfo_Authorize=Ask for admin authorization
+diskinfo_Locked=Locked in OS
+diskinfo_Mounted=Mounted by OS
+diskinfo_IsSystemVolume=Is operating system volume 
+
+
+prop_itemgrpbox=Item properties
+prop_itemname=Item name
+prop_itemsize=Size
+prop_itemid=ID
+prop_itemparentid=Parent ID
+prop_itemFSRefBlock=Filesystem ref.block
+prop_itemFSRefClus=Filesystem ref.cluster
+prop_itemClass=Item class
+prop_dateCreated=Creation date/time
+prop_DateModified=Modification date/time
+prop_DateLastWrite=Last write operation date/time
+prop_DateLastAccess=Last access date/time
+prop_firstdatablock=First data block
+prop_firstdataCluster=First data cluster
+prop_firstdataClusterHigh=First data cluster (High)
+prop_firstdataClusterLow=First data cluster (Low)
+prop_itemStatus=Item status
+prop_DBID=Database ID
+prop_DBParentID=Database parent ID
+prop_MimeType=Mime type
+prop_ForkADSInfo=Data forks/ADS
+prop_attributes=Attributes
+prop_overallsize=Size including subfolders
+
+prop_folder_count=Number of folders
+prop_file_count=Number of files
+prop_item_count=Number of items
+
+prop_volgrpbox=Volume properties
+prop_VolName=Volume name
+prop_VolDiskOfs=Byte offset on disk
+prop_volClusSize=Cluster size
+prop_volBytesPerFileRec=Bytes per file record
+prop_volBytesPerIndxBlk=Bytes per index block
+prop_volClass=Volume class
+prop_volTotalCluster=Total number of clusters
+prop_volBlkDiskOfs=Block offset on disk
+prop_volStatus=Volume status
+prop_volPhysicalBlockOfs=Disk byte offset/shifting 
+prop_volDBID=Database ID
+
+prop_formcaption=Properties
+prop_volflags=Volume flags
+prop_diskflags=Disk flags
+prop_addtoscanreport=Add to scan report
+
+prop_ofitem=Properties of item "%s"
+
+flag_bsrebuilt=The bootsector of this volume has been rebuilt.
+flag_mounterror=This volume could not be properly mounted.
+flag_bsondisk=The bootsector of this volume is located on disk.
+flag_notyetmounted=This volume has not yet been mounted.
+flag_rootempty=The root of this volume is empty.
+flag_fsreconstructed=The filesystem of this volume has been reconstructed.
+flag_fsoriginal=The filesystem of this volume is valid and original (not reconstructed).
+flag_bsinvalid=The bootsector of this volume seems to be invalid.
+
+class_TEXFATVolumeItem=EXFATVolumeItem
+class_TFATVolumeItem=FATVolumeItem
+class_TNTFSVolumeItem=NTFSVolumeItem
+class_THFSVolumeItem=HFSVolumeItem
+class_TNTFSVolumeItem=NTFSVolumeItem
+class_TEXT2VolumeItem=EXT2Volumeitem
+class_TUDFVolumeItem=UDFVolumeItem
+class_TISOVolumeItem=ISOVolumeItem
+class_TXFSVolumeItem=XFSVolumeItem
+class_TUFSVolumeItem=UFSVolumeItem
+class_TDUMMYVolumeItem=DummyVolumeItem
+class_TRAWVolumeItem=RAWVolumeItem
+  
+frmreport_caption=Scan report
+frmreport_btnsave=Save...
+frmreport_btnprint=Print... 
+frmreport_btnopen=Open... 
+frmreport_btnok=Ok
+frmreport_popup_copy=Copy
+frmreport_popup_save=Save...
+frmreport_popup_open=Open...
+frmreport_popup_changefont=Change font...
+frmreport_popup_autoupdate=Enable automatic update
+frmreport_header1=%globalcompanyname% - scan report\n\n
+frmreport_header2=Created on %s with the data recovery software %globalproductnamelong%.
+frmreport_header3=This report has been extracted from the log file: %s.\n  
+frmreport_footer1=- End of scan report -\n
+frmreport_error=report extraction finished with errors.\n
+frmreport_savedlg_title=Save scan report to
+frmreport_savedlg_filename=%globalproductnamelong% scan report %s
+frmreport_opendlg_title=Open scan report
+
+; --- disk tools strings -------------
+
+action_copydisk=Копировать диск
+action_CleanUpdisk=Очистить диск
+action_RefreshDisk=Обновить диск
+
+op_disktools=Дисковые утилиты
+op_disktools_hint=Возможности: Создание файла-образа диска и восстановление с него, копирование диска, его затирание и просмотр.
+op_diskTools_LoadImage=Загрузка файла-образа
+op_diskTools_CreateImg=Создание файла-образа
+op_diskTools_RestoreImg=Восстановление с файла-образа
+op_diskTools_CopyDisk=Копировать диск
+op_diskTools_WipeDisk=Затереть диск
+op_diskTools_ViewDisk=Просмотреть диск
+op_diskTools_RefreshDisk=Обновить диск
+
+other_copydiskwarning=You will copy the disk "%s" to "%s". This will overwrite %s on the destination disk. Are you sure?   
+other_copyingdisk=Copying disk
+other_CopyDiskThread_finishedmsg_success=The disk has been successfully copied.
+other_CopyDiskThread_finishedmsg_error=Disk copy has failed. See log file for more information.
+
+wiz_disktools_title=Дисковые утилиты
+wiz_disktools_subtext=Please select between the image creation or restore feature. Disk copy copies directly from source to destination disk without creating an image.
+
+wiz_disktools_choosedestVol_title=Destination disk
+wiz_disktools_choosedestVol_subtext=Please choose a destination disk where the previous selected disk will be copied to.
+wiz_selDestDisk_Note=Note: Be sure to choose a destination disk with is larger than your source disk with a size of %s.  
+wiz_destdisk_suitable=The selected destination disk is suitable for copying.
+wiz_destdisk_sameDiskError=You cannot copy directly to the same disk. In this case you must create and restore an image file.
+wiz_destdisk_tosmall=The selected destination disk is too small. Please choose another disk.
+
+op_diskTools_LoadImage_hint=Adds an image file to the disk selection list.
+op_diskTools_CreateImage_hint=Writes the selected disk to an image file. 
+op_diskTools_RestoreImage_hint=Writes an existing image file back to the selected disk. IMPORTANT: All data on the selected disk will be overwritten! Do not mix this feature with 'Load image' ! 
+op_diskTools_CopyDisk_hint=Copies the selected disk directly to another destination disk. This feature is recommended for copying large hard drives.
+op_diskTools_WipeDisk_hint=Wipes the selected disk. IMPORTANT: This will erase all data on the selected disk and you must format it again for reuse!
+op_diskTools_ViewDisk_hint=View the selected disk in a hex editor and search manually for data.
+op_diskTools_RefreshDisk_hint=Refresh the selected disk. Use this feature for archive media to safely rewrite and verify all data blocks.
+
+; ----------------
+; other new strings
+prop_itemFSRefOffset=Filesystem reference offset
+prop_itemFSChainStart=Filesystem data chain start
+prop_fattype=FAT Type
+prop_fat_usefatno=FAT number used
+
+diskinfo_FATType=FAT Type
+diskinfo_FATUseNo=FAT number used
+diskinfo_FATenableReverseLookupTable=Enable Reverse Lookup Table
+
+;-------
+op_diskTools_CleanupDisk=Cleanup disk
+op_diskTools_CleanupDisk_hint=This is a security feature. It overwrites all deleted and lost files (not the existing files!) on the selected disk, so they are irrecoverably removed. Use this feature if you want to get sure that no other people can read your deleted files with recovery tools. 
+other_cleanupdiskwarning=You will cleanup the disk "%s" (%s). This will overwrite all deleted and lost files on it, so they are irrecoverably removed.\nProceed?   
+other_CleanupDiskThread_finishedmsg_success=The disk has been successfully cleaned.
+other_CleanupDiskThread_finishedmsg_error=Disk cleanup has failed. See log file for more information.
+other_cleanupErrorDiskphys=You cannot cleanup a whole physical disk or a volume, which is formatted with a filesystem not supported by your operating system. Please select a valid logical volume on your disk or choose the wipe-disk feature.
+other_cleanupErrorNoTestFileCreation=Error creating a test file on your selected disk. Check that you have write privileges and that your operating system supports the filesystem of the selected volume.
+other_cleaningdisk=Cleaning disk
+;----
+other_wipedeletedLostwarningProgramVol=For program security it is not possible to wipe deleted or lost files located on a volume this software is executed from. Please install this software to another volume and try again. 
+other_wipedeletedLostwarning=WARNING: The disk your selected items are located on will be unmounted in the next step. Please close now all other applications and files accessing disk "%s". Proceed with next step?  
+other_writetoOSdrivenotpossible=Writing directly to the volume which contains the operating system is not possible in Windows Vista/7. Cannot continue operation.
+other_writetophysdisknotpossible=Writing directly to a physical disk which has mounted volumes is not possible in Windows Vista/7. IMPORTANT: You have to close ALL applications accessing this physical disk. Only then the volumes on this disk can be unmounted. Do you want to try again?
+
+other_writingOnOsDrvNotPossible=Test write operation failed. Note: Writing data blocks to the disk which contains the operating system is not possible due to security reasons.
+other_RefreshDiskThread_finishedmsg_success=Refresh operation successfully finished. 
+other_RefreshDiskThread_finishedmsg_error=Refresh operation finished with errors. Please open the log file for detailed information.
+other_refreshingdisk=Refreshing disk
+other_closeAllApps=Please close all applications accessing disk "%s". Continue operation?
+
+;---- 
+
+remoterec_terminate=Process %s is still running. Shall the process be terminated?
+other_waitForTreeExpanding=Expanding treeview. Please wait...
+
+; ----------------
+; pop-up box to contact support
+
+badblocks_popup=Bad blocks have been detected. WARNING: Continuing to operate your system may damage your hard drive beyond repair or cause irretrievable data loss. Please contact product support to further assist you with this recovery scenario.
+badblocks_clickhere=Click here
+
+smart_idvalue=ID value
+smart_name=Name
+smart_currentvalue=Current value
+smart_worstvalue=Worst value
+smart_treshold=Threshold
+smart_status=Status
+smart_rawvalue=Raw value
+
+; -----------------
+; new diskviewer translations 20.11.2012
+diskviewer_selection=Selection:
+diskviewer_menu_search=&Search
+diskviewer_menu_settings=Se&ttings...
+diskviewer_menu_results=&Result list...
+diskviewer_menu_edit=&Edit
+diskviewer_menu_setSelStart=Set selection &start
+diskviewer_menu_setSelEnd=Set selection en&d
+diskviewer_menu_selectAll=Select &all
+diskviewer_menu_dumpSelToLog=Copy selection to &log file
+diskviewer_menu_dumpSelToClipBrd=Copy selection to &clipboard
+diskviewer_menu_copySelToFile=Save selection as &binary file
+
+diskviewer_popup_setsearchstart=Set search start at cursor position
+diskviewer_popup_search=Search/Continue
+diskviewer_popup_setselstart=Set selection &start
+diskviewer_popup_setselend=Set selection en&d
+diskviewer_popup_selall=Select &all
+diskviewer_popup_dumpToClipbrd=Copy selection to &clipboard
+diskviewer_popup_saveSelAsBinToFile=Save selection as &binary file
+
+diskviewer_ofsfrm_caption=Result list
+diskviewer_btnDumpToClipBrd=Dump to clipboard
+
+diskviewer_searchfrm_caption=Search settings
+diskviewer_cbIgnoreCase=Ignore case
+diskviewer_cbOnlyAtBlkOfs=Search at block offset:
+
+diskviewer_ofsdump_title=Offset search result list of disk: "%s"
+diskviewer_ofsdump_ansistr=Search string (ANSI): %s
+diskviewer_ofsdump_hexstr=Search field (HEX): %s
+diskviewer_ofsdump_numEntries=Number of list entries: %d
+diskviewer_ofsdump_entry=Entry no. %d: offset=%s, length=%d
+
+; new translations for database implementation 09.01.2013
+opt_tabSheetDBOptions=Database options
+opt_tabSheetDBOptions_lblDBopt=The program database stores the scan results and allows you to stop and resume a scan. 
+opt_tabSheetDBOptions_cbUseDB=Use database
+opt_tabSheetDBOptions_lblDBFolder=Database folder:
+opt_tabSheetDBOptions_btnSelFolder=Select folder
+opt_tabSheetDBOptions_lblDBAttn=Attention: When the database is used, it can overwrite deleted files which shall be recovered. Make sure to set your database folder on a volume not intended for data recovery!
+opt_tabSheetDBOptions_selDirDlgTitle=Select database folder
+
+db_security_question=Important: The database feature is activated. This feature automatically saves your scan progress to "%s". Unrecovered files could by overwritten by the database.\nDo you want to set another database path or disable the database feature? (Yes is recommended!)
+
+db_open=Open scan
+db_resume=Resume scan
+db_headerinfo=Database header information
+db_handlerfile=Handler id %d, classname: %s, filename: %s, tablename: %s
+db_handlerinfo=Number of entries: %d
+
+progressfrm_estimatedelapsedtime=Estimated remaining time: %s, elapsed time: %s
+
+; new translations for disabling different savepath destinations 27.07.2013
+other_savetoOSdisk_notallowed=Saving to operating system disk is not allowed.
+other_savetoOSvol_notallowed=Saving to operating system volume is not allowed.

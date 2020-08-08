@@ -1,0 +1,21 @@
+Unpack, install the application.
+
+     Copy the full activation url  by right clicking the url displayed in
+     the activation dialog.
+
+     Paste the  activation url  in our  Keygen, to generate an activation
+     code for your system.
+
+
+     NOTES:
+
+     The activation url contains system dependant data.
+     Make sure to use our Keygen  on the same system  you are activating.
+
+     The activation code generates a 999 days licensing period.
+     Thats the maximum period of time available by the activation scheme.
+     When this period  has ended,  or  if  you wish to  renew it,  simply
+     delete the license file (.lic) located in
+     [drive]:\Documents and Settings\[user]\licman\ (windows XP), or
+     [drive]:\Users\[user]\licman\ (windows 7)
+     and repeat the activation process described above.
